@@ -1,0 +1,15 @@
+Type pupil = record
+fio:string;
+courses:longint;
+age:integer;
+adress:string;
+end;
+var
+kostya:pupil;
+begin
+kostya.fio:='kostya';
+with kostya do
+age := 10;
+courses:=122;
+end;
+end.
